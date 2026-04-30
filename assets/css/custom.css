@@ -314,7 +314,7 @@
     padding: 160px 0 80px;
     background:
       linear-gradient(180deg, rgba(26,18,11,0.15) 0%, rgba(26,18,11,0.55) 100%),
-      url("../images/banner-img.png") center/cover no-repeat;
+      url("../images/banner-img.webp") center/cover no-repeat;
     color: var(--cream);
     overflow: hidden;
   }
@@ -412,7 +412,7 @@
     padding: 220px 0 120px;
     background:
       linear-gradient(180deg, rgba(26,18,11,0.35) 0%, rgba(26,18,11,0.75) 100%),
-      url("../images/inner-banner-img.png") center/cover no-repeat;
+      url("../images/inner-banner-img.webp") center/cover no-repeat;
     color: var(--cream);
     overflow: hidden;
   }
