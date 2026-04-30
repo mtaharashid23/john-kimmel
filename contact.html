@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Contact — John Kimmel · Bessie Mae</title>
+  <meta name="description" content="Write to John Kimmel — for reader letters, event inquiries, book clubs, and press." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Spectral:wght@300;400;500;600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/custom.css" rel="stylesheet" />
+</head>
+<body class="grain" data-testid="page-contact">
+
+  <nav class="site-nav" data-testid="site-nav">
+    <div class="container-xl nav-inner">
+      <a href="index.html" class="brand">John Kimmel <span class="brand-mark">—</span> <span class="d-none d-md-inline" style="font-size:14px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);">Bessie Mae</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-book.html">The Book</a></li>
+        <li><a href="about-author.html">The Author</a></li>
+        <li><a href="blog.html">Journal</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <a href="about-book.html" class="btn-primary-custom nav-cta">Read the Story <span class="arrow"></span></a>
+      <button class="nav-toggle" data-testid="nav-toggle" aria-label="Open menu"><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" data-testid="mobile-menu">
+    <button class="mobile-close" data-testid="mobile-close" aria-label="Close menu">×</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about-book.html">The Book</a></li>
+      <li><a href="about-author.html">The Author</a></li>
+      <li><a href="blog.html">Journal</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- INNER BANNER -->
+  <section class="inner-banner" data-testid="inner-banner">
+    <div class="container-xl">
+      <div class="breadcrumbs" data-fade><a href="index.html">Home</a> <span>/</span> Contact</div>
+      <h1 data-split="chars">Write to <em>the Author</em></h1>
+      <p data-fade>For reader letters, book clubs, events, and press — a personal line back to the dust road.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" data-testid="section-contact">
+    <div class="container-xl">
+      <div class="contact-grid">
+        <div class="contact-info" data-fade>
+          <span class="eyebrow">Get in Touch</span>
+          <h2 class="section-title mt-3" style="font-size: clamp(32px, 4vw, 52px);">A quiet line, <em>personally answered.</em></h2>
+          <p>Every message is read and answered personally. Share what Dust and Devotion meant to you, invite the author to your book club, or simply write a letter.</p>
+
+          <div class="mt-5">
+            <div class="contact-item">
+              <div class="icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              </div>
+              <div>
+                <div class="ttl">Email</div>
+                <div class="val">hello@johnkimmel.com</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              </div>
+              <div>
+                <div class="ttl">Location</div>
+                <div class="val">West Texas, USA</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              </div>
+              <div>
+                <div class="ttl">Reply Time</div>
+                <div class="val">Within 3–5 days</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+              </div>
+              <div>
+                <div class="ttl">For</div>
+                <div class="val">Readers · Clubs · Events · Press</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form" data-fade data-fade-delay="0.1">
+          <span class="eyebrow">Send a Message</span>
+          <h2 class="section-title mt-3" style="font-size: clamp(28px, 3.6vw, 44px);" data-split="words">Share your <em>note.</em></h2>
+
+          <form data-testid="contact-form">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" class="form-control-custom" id="name" name="name" data-testid="contact-name" placeholder="Jane Reader" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" class="form-control-custom" id="email" name="email" data-testid="contact-email" placeholder="jane@example.com" />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" class="form-control-custom" id="subject" name="subject" data-testid="contact-subject" placeholder="Reader letter · Book club · Event" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea class="form-control-custom" id="message" name="message" data-testid="contact-message" placeholder="Write a few lines from the heart…"></textarea>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-between flex-wrap gap-3">
+              <button type="submit" class="btn-primary-custom" data-testid="contact-submit">Send Message <span class="arrow"></span></button>
+              <div class="form-note" data-form-note>Your message will be read personally.</div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" data-testid="site-footer">
+    <div class="container-xl">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand" style="color:var(--cream);">John Kimmel <span class="brand-mark">—</span></a>
+          <p>A West Texas tale of grit and grace — written in honor of Bessie Mae, whose devotion became these pages.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-book.html">The Book</a></li>
+            <li><a href="about-author.html">The Author</a></li>
+            <li><a href="blog.html">Journal</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4>Stay in Touch</h4>
+          <p style="color: rgba(246,236,217,0.65); font-family: 'Work Sans', sans-serif; font-size: 14px; margin-bottom: 18px;">Occasional updates from the author — releases, essays, and quiet reflections from the dust road.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+            <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1.1.3-2 2-2h2V2c-.4-.1-1.6-.2-3-.2-3 0-5 1.8-5 5V10H6v4h3v8h4z"/></svg></a>
+            <a href="#" aria-label="Goodreads"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4z"/><path d="M8 8l4 8 4-8"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span data-year>2025</span> John Kimmel — Bessie Mae. A promise kept.</div>
+        
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>John Kimmel — Dust and Devotion · A West Texas Tale of Grit and Grace</title>
+  <meta name="description" content="Dust and Devotion by John Kimmel, written in honor of Bessie Mae. A West Texas tale of legacy, resilience, and the fight to hold onto what matters most." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Spectral:wght@300;400;500;600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/custom.css" rel="stylesheet" />
+</head>
+<body class="grain" data-testid="page-home">
+
+  <!-- NAV -->
+  <nav class="site-nav" data-testid="site-nav">
+    <div class="container-xl nav-inner">
+      <a href="index.html" class="brand" data-testid="brand-logo">John Kimmel <span class="brand-mark">—</span> <span class="d-none d-md-inline" style="font-size:14px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);">Bessie Mae</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active" data-testid="nav-home">Home</a></li>
+        <li><a href="about-book.html" data-testid="nav-book">The Book</a></li>
+        <li><a href="about-author.html" data-testid="nav-author">The Author</a></li>
+        <li><a href="blog.html" data-testid="nav-blog">Journal</a></li>
+        <li><a href="contact.html" data-testid="nav-contact">Contact</a></li>
+      </ul>
+      <a href="about-book.html" class="btn-primary-custom nav-cta" data-testid="nav-cta">Read the Story <span class="arrow"></span></a>
+      <button class="nav-toggle" data-testid="nav-toggle" aria-label="Open menu"><span></span></button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" data-testid="mobile-menu">
+    <button class="mobile-close" data-testid="mobile-close" aria-label="Close menu">×</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about-book.html">The Book</a></li>
+      <li><a href="about-author.html">The Author</a></li>
+      <li><a href="blog.html">Journal</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" data-testid="hero">
+    <div class="container-xl hero-inner">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow" data-hero-eyebrow>A Novel by John Kimmel</span>
+          <h1 data-split="chars"><em>Dust</em> and Devotion</h1>
+          <p class="lead" data-hero-lead>A West Texas tale of grit and grace — of the land that raises us, the losses that shape us, and the quiet, unshakeable devotion it takes to come home again.</p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="about-book.html" class="btn-primary-custom" data-hero-cta data-testid="hero-cta-book">Discover the Book <span class="arrow"></span></a>
+            <a href="about-author.html" class="btn-ghost text-cream" style="border-color:rgba(246,236,217,.6);color:var(--cream);" data-hero-cta data-testid="hero-cta-author">Meet the Author</a>
+          </div>
+        </div>
+        <div class="hero-cover" data-hero-cover>
+          <img src="assets/images/book-cover.jpeg" alt="Dust and Devotion book cover" />
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">Scroll</div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" data-testid="marquee">
+    <div class="marquee-track">
+      <span>Resilience</span><span>Legacy</span><span>Grit and Grace</span><span>Devotion</span><span>West Texas</span><span>Bessie Mae</span>
+      <span>Resilience</span><span>Legacy</span><span>Grit and Grace</span><span>Devotion</span><span>West Texas</span><span>Bessie Mae</span>
+    </div>
+  </div>
+
+  <!-- BOOK INTRO -->
+  <section class="section" data-testid="section-book-intro">
+    <div class="container-xl">
+      <div class="book-intro-grid">
+        <div class="book-intro-cover" data-fade>
+          <img src="assets/images/book-cover.jpeg" alt="Dust and Devotion — John Kimmel" />
+        </div>
+        <div>
+          <span class="eyebrow" data-fade>About the Book</span>
+          <h2 class="section-title" data-split="words">A story about legacy, survival, and the fight to hold onto <em>what matters most.</em></h2>
+          <p class="lead-body" data-fade>When Callie Rigby returns to her family's struggling West Texas ranch, she is met with more than memories; she inherits debt, responsibility, and a ticking clock. With only thirty days to save the land her father built, she must navigate a world far removed from the city life she once knew.</p>
+          <p class="lead-body" data-fade data-fade-delay="0.1">As corporate interests threaten to take over the land, Callie finds herself at odds with Boone West, a man deeply rooted in tradition and wary of change. Their clashing perspectives mirror a larger battle — progress versus preservation, profit versus purpose.</p>
+          <a href="about-book.html" class="btn-primary-custom mt-3" data-fade data-fade-delay="0.2" data-testid="book-intro-cta">Read the Full Synopsis <span class="arrow"></span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTHOR SECTION -->
+  <section class="section author-section" data-testid="section-author">
+    <div class="container-xl">
+      <div class="author-grid">
+        <div class="author-img-wrap" data-fade>
+          <img src="assets/images/author-img.jpeg" alt="Bessie Mae — the mother behind the pen" />
+          <div class="author-caption">Bessie Mae — the promise behind the pen</div>
+        </div>
+        <div>
+          <span class="eyebrow" data-fade>About the Author</span>
+          <h2 class="section-title" data-split="words">A legacy carried forward through <em>story, memory, and promise.</em></h2>
+          <p class="lead-body" data-fade>Bessie Mae is more than a name on a book cover; it is a legacy carried forward through story, memory, and promise. Behind this name is a writer who did not set out simply to tell a tale, but to honor a life defined by resilience, sacrifice, and unwavering devotion.</p>
+          <p class="lead-body" data-fade data-fade-delay="0.1">This book was born from a promise — one made in the quiet weight of time, when words matter most. That promise was to share a gift, to give voice to stories that reflect the strength found in hardship and the grace that grows from perseverance.</p>
+          <a href="about-author.html" class="btn-ghost mt-3" data-fade data-fade-delay="0.2" data-testid="author-intro-cta">The Full Story</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUY THE BOOK -->
+  <section class="section buy-section" data-testid="section-buy">
+    <div class="container-xl">
+      <div class="buy-header">
+        <span class="eyebrow" data-fade>Order Dust and Devotion</span>
+        <h2 class="section-title mt-3" data-split="words">Read it today — in <em>print, digital,</em> or audio.</h2>
+        <p class="lead-body mx-auto" style="max-width: 640px;" data-fade>Available at your favorite bookseller. Support the author by ordering through any of the retailers below.</p>
+      </div>
+      <div class="retailer-grid">
+        <a href="https://www.amazon.com/" target="_blank" rel="noopener" class="retailer-card" data-fade data-testid="retailer-amazon">
+          <span class="retailer-mark">a.</span>
+          <div>
+            <div class="retailer-label">Retailer · 01</div>
+            <div class="retailer-name">Amazon</div>
+            <p class="retailer-sub">Hardcover · Paperback · Kindle · Audible</p>
+          </div>
+          <span class="retailer-cta">Buy on Amazon</span>
+        </a>
+        <a href="https://www.barnesandnoble.com/" target="_blank" rel="noopener" class="retailer-card" data-fade data-fade-delay="0.1" data-testid="retailer-bn">
+          <span class="retailer-mark">bn.</span>
+          <div>
+            <div class="retailer-label">Retailer · 02</div>
+            <div class="retailer-name">Barnes &amp; Noble</div>
+            <p class="retailer-sub">Hardcover · Paperback · Nook</p>
+          </div>
+          <span class="retailer-cta">Buy at B&amp;N</span>
+        </a>
+        <a href="https://www.goodreads.com/" target="_blank" rel="noopener" class="retailer-card" data-fade data-fade-delay="0.2" data-testid="retailer-goodreads">
+          <span class="retailer-mark">g.</span>
+          <div>
+            <div class="retailer-label">Community · 03</div>
+            <div class="retailer-name">Goodreads</div>
+            <p class="retailer-sub">Shelve it · Review it · Join the conversation</p>
+          </div>
+          <span class="retailer-cta">Add on Goodreads</span>
+        </a>
+      </div>
+      <div class="buy-footnote" data-fade>Also available at independent bookstores · Request it at your local library</div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="section newsletter-section" data-testid="section-newsletter">
+    <div class="container-xl">
+      <div class="newsletter-grid">
+        <div>
+          <span class="eyebrow" data-fade>Letters from the Dust Road</span>
+          <h2 class="section-title mt-3" data-split="words">Quiet notes. <em>Occasional letters.</em> No noise.</h2>
+          <p class="lead-body" data-fade>Be the first to hear about new chapters, reader events, and reflections from the author. A small, thoughtful letter — never more than once a month.</p>
+          <form class="newsletter-form mt-4" data-testid="newsletter-form" data-fade>
+            <input type="email" name="email" placeholder="your@email.com" aria-label="Email address" data-testid="newsletter-email" required />
+            <button type="submit" data-testid="newsletter-submit">Subscribe</button>
+          </form>
+          <div class="newsletter-note" data-newsletter-note>No spam. Unsubscribe at any time.</div>
+        </div>
+        <div class="newsletter-aside" data-fade data-fade-delay="0.1">
+          <p class="stat">2,400+</p>
+          <div class="stat-label">Readers on the Dust Road</div>
+          <ul class="newsletter-benefits">
+            <li>Early looks at upcoming essays and chapters</li>
+            <li>Reader event announcements &amp; book club visits</li>
+            <li>Signed-copy giveaways and limited releases</li>
+            <li>Quiet reflections from the author — no filler</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section reviews-section" data-testid="section-reviews">
+    <div class="container-xl position-relative">
+      <div class="text-center mb-5 pb-3">
+        <span class="eyebrow" data-fade>Early Praise</span>
+        <h2 class="section-title mt-3" data-split="words">Readers are calling it <em>a must-read.</em></h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="review-card" data-fade>
+            <span class="quote-mark">&ldquo;</span>
+            <p>Dust and Devotion is a beautifully written story that captures the raw essence of resilience. With vivid imagery and emotionally grounded characters, it delivers a powerful narrative about legacy, love, and the courage to rebuild.</p>
+            <div class="reviewer">— Editorial Review</div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="review-card" data-fade data-fade-delay="0.1">
+            <span class="quote-mark">&ldquo;</span>
+            <p>A compelling blend of heart and hardship, this novel brings West Texas to life in a way that feels both intimate and expansive. Callie's journey is inspiring, and the story's emotional depth lingers long after the final page.</p>
+            <div class="reviewer">— Reader's Circle</div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="review-card" data-fade data-fade-delay="0.2">
+            <span class="quote-mark">&ldquo;</span>
+            <p>This is more than a story; it's an experience. Dust and Devotion explores themes of family, sacrifice, and perseverance with authenticity and grace, making it a must-read for anyone who values meaningful storytelling.</p>
+            <div class="reviewer">— Literary Monthly</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG TEASER -->
+  <section class="section" data-testid="section-blog-teaser">
+    <div class="container-xl">
+      <div class="d-flex justify-content-between align-items-end flex-wrap gap-3 mb-5">
+        <div>
+          <span class="eyebrow" data-fade>The Journal</span>
+          <h2 class="section-title mt-3 mb-0" data-split="words">Notes from the <em>dust road.</em></h2>
+        </div>
+        <a href="blog.html" class="btn-ghost" data-fade data-testid="blog-teaser-cta">All Journal Entries</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <a href="blog.html" class="blog-card d-block" data-fade data-testid="blog-card-1">
+            <div class="card-thumb"><img src="assets/images/card-img.png" alt="The Heart Behind Dust and Devotion" /></div>
+            <div class="card-body">
+              <div class="card-meta">On the Book · 4 min read</div>
+              <h3>The Heart Behind Dust and Devotion</h3>
+              <p>Legacy is not inherited; it is earned through action, sacrifice, and unwavering commitment.</p>
+              <span class="read-more">Read Entry</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <a href="blog.html" class="blog-card d-block" data-fade data-fade-delay="0.1" data-testid="blog-card-2">
+            <div class="card-thumb"><img src="assets/images/inner-banner-img.png" alt="Why Stories About Land Still Matter" /></div>
+            <div class="card-body">
+              <div class="card-meta">On the Book · 5 min read</div>
+              <h3>Why Stories About Land Still Matter</h3>
+              <p>The novel highlights a growing tension between development and preservation.</p>
+              <span class="read-more">Read Entry</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <a href="blog.html" class="blog-card d-block" data-fade data-fade-delay="0.2" data-testid="blog-card-3">
+            <div class="card-thumb"><img src="assets/images/banner-img.png" alt="The Promise Behind the Pen" /></div>
+            <div class="card-body">
+              <div class="card-meta">On the Author · 3 min read</div>
+              <h3>The Promise Behind the Pen</h3>
+              <p>Not every story begins with a promise. This one did — and it was finally brought to life through words.</p>
+              <span class="read-more">Read Entry</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" data-testid="site-footer">
+    <div class="container-xl">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand" style="color:var(--cream);">John Kimmel <span class="brand-mark">—</span></a>
+          <p>A West Texas tale of grit and grace — written in honor of Bessie Mae, whose devotion became these pages.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-book.html">The Book</a></li>
+            <li><a href="about-author.html">The Author</a></li>
+            <li><a href="blog.html">Journal</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>        
+        <div>
+          <h4>Stay in Touch</h4>
+          <p style="color: rgba(246,236,217,0.65); font-family: 'Work Sans', sans-serif; font-size: 14px; margin-bottom: 18px;">Occasional updates from the author — releases, essays, and quiet reflections from the dust road.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+            <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1.1.3-2 2-2h2V2c-.4-.1-1.6-.2-3-.2-3 0-5 1.8-5 5V10H6v4h3v8h4z"/></svg></a>
+            <a href="#" aria-label="Goodreads"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4z"/><path d="M8 8l4 8 4-8"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span data-year>2025</span> John Kimmel — Bessie Mae. A promise kept.</div>
+        
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+</html>
