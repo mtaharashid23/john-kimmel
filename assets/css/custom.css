@@ -1162,7 +1162,7 @@
   
   /* ============ UTIL / ANIM ============ */
   .reveal { opacity: 0; }
-  .char { display: inline-block; will-change: transform, opacity; }
+  .char {display: inline !important;will-change: transform, opacity;}
   .line { overflow: hidden; display: block; }
   .line > .inner { display: inline-block; will-change: transform; }
   
